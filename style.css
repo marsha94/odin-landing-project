@@ -169,7 +169,6 @@ li {
     padding: 30px 50px;
     border-radius: 5px;
     gap: 32px;
-    justify-content: space-between;
 }
 
 .container > .left-sec {
