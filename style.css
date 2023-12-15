@@ -1,0 +1,195 @@
+@import url('https://fonts.cdnfonts.com/css/hero-new');
+
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Hero New', sans-serif;
+}
+
+body > * {
+    padding: 0 10%;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.headers{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 16px;
+    height: 72px;
+    flex-grow: 0;
+    align-content: space-between
+}
+
+.links{
+    display: flex;
+    gap: 32px;
+    font-size: 18px;
+    color: #e5e7eb;
+    align-items: center;
+    min-width: 320px;
+}
+
+.headers,
+.web-info,
+.footer{
+    background-color: #1F2937;
+    color: white
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #f9faf8;
+    align-self: center;
+    min-width: 50%;
+}
+
+.footer {
+    display: flex;
+    height: 72px;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 0;
+}
+
+.web-info{
+    display: flex;
+    align-items: flex-start;
+    gap: 10px; 
+    padding-bottom: 60px;
+    justify-content:  space-between;
+    flex-wrap: wrap;
+}
+
+.web-info > .left-sec {
+    max-width: 50%;
+}
+
+h1 {
+    margin-top: 0;
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.info > button {
+    padding: 8px 32px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    border: none;
+    border-radius: 12px;
+    margin: 8px 0px;
+    min-width: 100px;
+}
+
+.web-info > img {
+    width: 450px;
+    height: 300px;
+    flex-shrink: 0;
+    align-self: center;
+    border-radius: 10px;
+}
+
+.penguin-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px 10%;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    margin-bottom: 40px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    gap: 48px;
+}
+
+li {
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+    align-items: center;
+    text-align: center;
+}
+
+.penguin-info img {
+    width: 200px;
+    height: 200px;   
+    border-radius: 50px;
+}
+
+.quote-statement {
+    display: flex;
+    flex-direction: column;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    background: #e5e7eb;
+}
+
+.quote-statement > .quote {
+    font-size: 36px;
+    font-weight: normal;
+    font-style: italic;
+    color: #1F2937;
+    margin-bottom: 0;
+}
+
+
+.quote-statement > .author {
+    font-size: 36px;
+    font-weight: bolder;
+    font-style: italic;
+    color: #1F2937;
+    align-self: flex-end;
+    margin-top: 0;
+}
+
+.container {
+    display: flex;
+    background: #3882f6;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    color:  #f9faf8;;
+    padding: 30px 50px;
+    border-radius: 5px;
+    gap: 32px;
+    justify-content: space-between;
+}
+
+.container > .left-sec {
+    display: flex;
+    flex-direction: column;
+}
+
+.container > button {
+    margin: 0px;
+    align-self: center;
+    background-color: #3882f6;
+    color: #f9faf8;
+    border: none;
+    border-radius: 12px;
+    margin: 8px 0px;
+    border: #e5e7eb solid;
+    padding: 8px;
+    min-width: 100px;
+}
+
+.sign-up-left-sec > * {
+    margin: 0;    
+}
